@@ -78,10 +78,7 @@ public class CompanyAnalyzer {
             if (manager == null)
                 throw new IllegalStateException("ERROR - Manager not found in employee list for ID: " + currentManagerId);
 
-            if (manager.getManagerId() != null) {
-                managersAbove++;
-            }
-
+            managersAbove++;
             currentManagerId = manager.getManagerId();
         }
 

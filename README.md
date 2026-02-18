@@ -38,7 +38,7 @@ Specifically, it checks two key rules:
 * **ManagerLimit:** Represents a violation of reporting line length.
 * **SalaryViolation:** Represents a violation of salary policy.
 * **CompanyAnalyzer:** Core analyzer class with logic for salary checks and reporting line checks.
-* **EmployeeReader:** Process all the data from employess from csv fields to objects and lists.
+* **EmployeeReader:** Process all the data from employees from csv fields to objects and lists.
 * **App:** Reads the CSV and prints analysis results to the console.
 
 ## Special Considerations 
