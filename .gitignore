@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+
+# Maven target folder
+/target/
+
+# Eclipse files
+/.classpath
+/.project
+/.settings/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# VS Code
+/.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Build artifacts
+*.class
